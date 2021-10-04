@@ -1,0 +1,26 @@
+@import "../../styles/Common.scss";
+
+.button {
+  width: 100%;
+  font-weight: 400;
+  padding: $padding-default;
+  background: transparent;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 16px;
+  font-family: monospace;
+  color: black;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s,
+    box-shadow 0.3s;
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: map-get($colors, "primary");
+    border-color: map-get($colors, "primary");
+    box-shadow: $shadow;
+  }
+}
+
+.button--large {
+  font-size: 24px;
+}

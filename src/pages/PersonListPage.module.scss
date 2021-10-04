@@ -1,0 +1,10 @@
+@import "../styles/Common.scss";
+
+.person-list-page {
+  @extend %flex-and-center;
+  flex-direction: column;
+}
+
+.person-list-page__button {
+  margin-top: 2rem;
+}

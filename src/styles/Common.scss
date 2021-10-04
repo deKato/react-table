@@ -1,0 +1,13 @@
+%flex-and-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$colors: (
+  "primary": #990ae3,
+  "secondary": #e6e6fa,
+);
+
+$padding-default: 1rem;
+$shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

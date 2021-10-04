@@ -1,0 +1,23 @@
+@import "../../styles/Common.scss";
+
+.table__row {
+  display: flex;
+  align-items: center;
+  padding: $padding-default;
+  border-bottom: 1px solid lightgray;
+  transition: background-color 0.2s, color 0.2s;
+  &:last-child {
+    border-bottom: none;
+  }
+  &:hover {
+    cursor: pointer;
+    background: map-get($colors, "primary");
+    color: white;
+  }
+}
+
+.table__row__cell {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,7 @@
+@import "../styles/Common.scss";
+
+.homepage {
+  @extend %flex-and-center;
+  height: 40vh;
+  flex-direction: column;
+}

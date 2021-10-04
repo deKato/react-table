@@ -1,0 +1,18 @@
+@import "../../styles/Common.scss";
+
+.select__label {
+  font-size: 0.8rem;
+}
+
+.select__element {
+  border: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+  &:hover {
+    cursor: pointer;
+    background-color: map-get($colors, "secondary");
+  }
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../styles/Common.scss";
+
+.table__container {
+  margin-top: 1rem;
+  box-shadow: $shadow;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .table__container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 769px) {
+  .table__container {
+    width: 40vw;
+  }
+}
+
+.table__container__filter {
+  padding: $padding-default;
+  display: flex;
+  justify-content: center;
+}
